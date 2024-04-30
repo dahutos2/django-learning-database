@@ -65,6 +65,7 @@ create database pj_db;
 ```
 ### 環境設定ファイルを設置
 プロジェクト直下に`.env`というファイル名でファイルを作り、以下の内容を入力。
+
 `mysql`の`pj_db`というデータベースに`root`ユーザーで`password`パスワードでアクセスするという意味。
 ```
 DATABASE_URL=mysql://root:password@localhost/pj_db
